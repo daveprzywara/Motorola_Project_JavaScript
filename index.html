@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Motorola Projekt</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+      <div id="menu">
+        <p class="menuParagraph" id="menuHome">
+            <img width="40px" height="40px" src="media/home.png">
+        </p>
+        <p class="menuParagraph" id="menuMap">
+            <img width="50px" height="50px" src="media/map.png">
+        </p>
+        <p class="menuParagraph" id="menuList">
+            <img width="40px" height="40px" src="media/list.png">
+        </p>
+      </div>
+
+      <div class="pages" id="page1">
+      <div class="boxView" id="enter">
+                <img id="cityLine" src="media/city_line.png">
+        <span id="one">
+          <p class="introParagraph">Do you want to experience the real journey ?</p>
+          <p class="introParagraph">Explore the world of hidden treasures</p>
+          <p class="introParagraph">Map will show you the way to find them all</p>
+          <p class="introParagraph">You can put your own item on the map</p>
+          <p class="introParagraph">You can also edit or remove existing ones</p>
+          </span>
+
+
+      </div>
+      </div>
+
+    <div class="pages" id="page2">
+      <div class="boxView" >
+        <div id="map"> </div>
+
+        <div id="addObject">Add object
+
+              <div id="addOptions">
+
+                <form action="/my-handling-form-page" method="post">
+                <input id="objectName" type="text" placeholder="Name" required></input>
+                <input id="authorName" type="text" placeholder="Author" required></input>
+                <input id="objectLat" type="text" placeholder="Latitude" required></input>
+                <input id="objectLng" type="text" placeholder="Longitude" required></input>
+                <textarea id="addDescription" rows="5" cols="30" placeholder="Tips about your object"></textarea>
+
+
+                <div id="iconBar">
+                    <img class="icons" id="firstIcon" src="media/redMarker.png">
+                    <img class="icons" id="secondIcon" src="media/greenMarker.png">
+                    <img class="icons" id="thirdIcon" src="media/blueMarker.png">
+                </div>
+
+                <div id="newObject">
+                    Create new object
+                </div>
+                </form>
+
+              </div>
+
+        </div>
+    </div>
+    </div>
+
+
+          <div class="pages" id="page3">
+          <div class="boxView" id="intro">
+            <!-- <div class="smallBox">Big Oak
+                <div class="insBox">Hidden in the place, where is a lot of
+                    leaves and beautiful routes.
+                    <div class="insPosition">
+                        Position: 41.878 | -87.734
+                    </div>
+                </div>
+            </div>
+           <div class="smallBox">Motorola Solutions
+                <div class="insBox">You can find me in the place, where
+                    real magic happens. We help people be their best
+                    in their moments that matter.
+                    <div class="insPosition">
+                        Position: 41.8804802 | -87.640543
+                    </div>
+                </div>
+           </div>
+           <div class="smallBox">Johnny Pump
+                <div class="insBox">I am small, red and really wet.
+                Use me when it will be 'too hot'.
+                <div class="insPosition">
+                    Position: 41.861 | -87.694
+                </div>
+                </div>
+           </div> -->
+          </div>
+          </div>
+
+    <script type="text/javascript" async defer
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL82zIhLJhBZ1x-dvFHp8wwYeerh07Kc&callback=initMap">
+       </script>
+
+  </body>
+
+<script src="js/script.js" charset="utf-8"></script>
+<script src="js/map.js" charset="utf-8"></script>
+</html>
