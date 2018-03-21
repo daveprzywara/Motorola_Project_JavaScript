@@ -5,8 +5,8 @@ To properly launch the website you need to put your own Google's <b>API_KEY</b> 
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
-   </br>   
-First page is just an intro.</br>
+   </br></br>
+First page is just an intro.</br></br>
 Second page is a heart of this website.</br>
 There is a map (Google API).</br>
 User is allowed to add new marker on the map, by clicking the exact place on the map or by typing position in 'Add object'.</br>
