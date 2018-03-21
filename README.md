@@ -1,5 +1,5 @@
 # Motorola_Project_JavaScript by Dave Przywara
-Prototype of geocaching portal in JavaScript - frontend
+Prototype of geocaching portal - frontend (JavaScript, HTML, CSS)
 
 To properly launch the website you need to put your own Google's <b>API_KEY</b> in index.html.
 <script async defer
